@@ -4,6 +4,7 @@ Please see attached snapshot 1.
 
 2. Inspect the output of the HDFS admin report and answer the following questions in a text file.
 Please see attached snapshot 2.
+
 Q1: How many live datanodes are there?
 1 live datanode
 Q2: How much non-DFS storage is used?
