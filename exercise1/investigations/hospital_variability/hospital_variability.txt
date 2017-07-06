@@ -1,0 +1,16 @@
+The variability was represented by the standard deviation of all measure scores. The measures with the highest standard deviation are death rates of pneumonia, stroke, and heart failure.  
+
++--------------------+-------------+--------+                                   
+|        measure_name|   measure_id|se_score|
++--------------------+-------------+--------+
+|Pneumonia (PN) 30...|   MORT_30_PN|   1.711|
+|Death rate for st...|  MORT_30_STK|   1.651|
+|Heart failure (HF...|  READM_30_HF|   1.595|
+|Heart failure (HF...|   MORT_30_HF|   1.429|
+|Rate of unplanned...|READM_30_CABG|   1.327|
+|Rate of unplanned...|READM_30_COPD|   1.268|
+|Acute Myocardial ...|  MORT_30_AMI|    1.25|
+|Pneumonia (PN) 30...|  READM_30_PN|   1.118|
+|Rate of unplanned...| READM_30_STK|   1.117|
+|Acute Myocardial ...| READM_30_AMI|   1.084|
++--------------------+-------------+--------+

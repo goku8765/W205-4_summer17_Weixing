@@ -1,0 +1,18 @@
+Similar to the analysis of hospital quality, we processed data in the same way to calculate average score of of all measures in each state. The list is shown in the following table.
+
++-----+---------+                                                               
+|state|avg_score|
++-----+---------+
+|   MP|    17.25|
+|   GU|     16.3|
+|   VI|   15.521|
+|   PR|   15.211|
+|   AR|   14.841|
+|   MS|    14.77|
+|   WV|   14.753|
+|   KY|   14.693|
+|   NY|   14.432|
+|   TN|    14.42|
++-----+---------+
+
+Still, another method is to aggregate counts of “better than the national rate” and “worse than the national rate” separately on all measures for each state to directly observe how the state performs compared to the national average. Then I also calculated the percentage of (“better”  count - “worse” count) in total measures. Unfortunately, CASE WHEN codes don’t work in my EC2, only codes are shown in the sql. You should be able to run it to see the result. Sorry for the missing table.

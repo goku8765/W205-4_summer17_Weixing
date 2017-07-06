@@ -1,0 +1,19 @@
+What hospitals offer high-quality care? We analyzed readmissions and deaths data to evaluate hospitals’ performance. In order to reach a conclusive rating, we calculated an average score of all readmissions and deaths data of each hospital and listed the rating in a decreasing order. “Not available” data was eliminated. The list is shown in the following table.
++--------------------+---------+                                                
+|       hospital_name|avg_score|
++--------------------+---------+
+|MARICOPA MEDICAL ...|    19.25|
+|HOUSTON COUNTY CO...|     19.2|
+|HOSPITAL METROPOL...|     19.2|
+|UNIVERSITY HOSPIT...|    19.15|
+|MITCHELL COUNTY H...|    18.45|
+|MAYO CLINIC HEALT...|     18.4|
+|      HOSPITAL PEREA|   18.375|
+|MOUNDVIEW MEMORIA...|     18.2|
+|WELLMONT HANCOCK ...|     18.1|
+|UNION COUNTY GENE...|   17.875|
++--------------------+---------+
+
+Another method is to aggregate counts of “better than the national rate” and “worse than the national rate” separately on all measures for each hospital to directly observe how the hospital performs compared to the national average. Then I also calculated the percentage of (“better”  count - “worse” count) in total measures. Unfortunately, CASE WHEN codes don’t work in my EC2, only codes are shown in the sql. You should be able to run it to see the result. Sorry for the missing table.
+
+It should be noticed that better hospitals are possible to receive more patients with severe illnesses. Thus, the rate of readmissions and deaths cannot perfectly represent the quality of the hospital.

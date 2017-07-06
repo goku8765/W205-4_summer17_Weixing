@@ -1,0 +1,17 @@
+To investigate patients’ ratings on hospitals, we selected overall_rating_dim, baseline rating, and rating consistency. The results show that all three parameters have a positive correlation. Because overall_rating_dim is on a base of 10, we only combine baseline and consistency rating to give a overall rating of patients’ responses.
+
+
++--------------------+------------------+-----------+------------------+--------------+
+|       hospital_name|overall_rating_dim|rating_base|rating_consistency|rating_combine|
++--------------------+------------------+-----------+------------------+--------------+
+|DAKOTA PLAINS SUR...|                10|         80|                20|           100|
+|ORTHOPAEDIC HOSPI...|                10|         80|                20|           100|
+|PHYSICIAN'S CARE ...|                10|         80|                20|           100|
+|MIDWEST SURGICAL ...|                10|         80|                20|           100|
+|SURGICAL HOSPITAL...|                10|         80|                20|           100|
+|BAYLOR MEDICAL CE...|                10|         80|                20|           100|
+|SURGICAL INSTITUT...|                10|         80|                20|           100|
+|PHYSICIANS CENTRE...|                10|         80|                20|           100|
+|QUAIL CREEK SURGI...|                10|         80|                20|           100|
+|ADVANCED SURGICAL...|                10|         80|                20|           100|
++--------------------+------------------+-----------+------------------+--------------+
