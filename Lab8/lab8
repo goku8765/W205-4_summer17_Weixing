@@ -1,0 +1,22 @@
+1. How many rows are missing a value in the "State" column? Explain how you came up with the number.
+5377. Text Facet shows 5377 blank ‘state’ cells.
+
+2. How many rows with missing ZIP codes do you have?
+4362. Numeric Facet shows 4362 blank ‘zip code’ cells.
+
+3. If you consider all ZIP codes less than 99999 to be valid, how many valid and invalid ZIP codes do you have, respectively? 
+Use this filter: if (value >99998, value, null) for numeric facet it shows 34961 invalid (’99999’) values.
+Use an equation: valid zip code number = 384498-4362-34961, the number of valid zip codes is 345175
+
+4. Change the radius to 3.0. What happens? Do you want to merge any of the resulting matches?
+I will not merge results because radius 3.0 tolerates more types of errors, trying to cluster unrelated words.
+
+5. Change the block size to 2. Give two examples of new clusters that may be worth merging.
+radius 2 block 2. Two examples are shown in two snapshots.
+
+6. Explain in words what happens when you cluster the "place" column, and why you think that happened. What additional functionality could OpenRefine provide to possibly deal with the situation?
+It takes too long to finish grouping because too many different addresses while they have same or similar state number, giving rise to too many combinations.
+We can create a location column and town column, then cluster and merge cells in those columns. Use the results to cluster the place column.
+
+7. Submit a representation of the resulting matrix from the Levenshtein edit distance calculation. The resulting value should be correct.
+Results are shown in two snapshots. Python codes are provided, too.
