@@ -6,7 +6,7 @@ a = 'gunbarell'
 b = 'gumbarrel'
 
 w, h = len(b)+1, len(a)+1
-# set first row
+# set first row and first column
 mtx = [[x for x in range(w)] for y in range(h)]
 for i in range(w):
     mtx[i][0] = i 
