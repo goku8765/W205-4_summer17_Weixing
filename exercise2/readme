@@ -1,5 +1,5 @@
 Steps to run topology:
-1. run Extweetwordcount/psycopg-create.py to create database and table
-2. run Extweetwordcount/topologies/tweetwordcount.clj to generate streaming and wordcount
-3. run Extweetwordcount/finalresults.py to examine word counts
-4. run Extweetwordcount/histogram.py to list words with specific counts
+1. run extweetwordcount/psycopg-create.py to create database and table
+2. run extweetwordcount/topologies/tweetwordcount.clj to generate streaming and wordcount
+3. run extweetwordcount/finalresults.py to examine word counts
+4. run extweetwordcount/histogram.py to list words with specific counts
